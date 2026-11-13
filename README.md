@@ -1,5 +1,9 @@
 # Awesome-Resource-Allocation-Capacity-Planning
 
+<p align="center">
+  <img src="assets/banner.svg" alt="Awesome Resource Allocation & Capacity Planning" width="100%">
+</p>
+
 # Awesome Resource Allocation & Capacity Planning
 
 > A curated list of top Resource Allocation and Capacity Planning platforms — both SaaS/Hosted commercial solutions and open-source alternatives for visualizing team workloads, forecasting availability, and balancing utilization across projects.
