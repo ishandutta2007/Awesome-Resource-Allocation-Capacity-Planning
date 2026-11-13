@@ -1,148 +1,237 @@
-# Awesome-Resource-Allocation-Capacity-Planning
+# ⚡ Awesome Resource Allocation & Capacity Planning
 
 <p align="center">
   <img src="assets/banner.svg" alt="Awesome Resource Allocation & Capacity Planning" width="100%">
 </p>
 
-# Awesome Resource Allocation & Capacity Planning
+<p align="center">
+  <a href="https://github.com/ishandutta2007/Awesome-Awesome-Awesome"><img src="https://img.shields.io/badge/Awesome-%E2%9C%94-blueviolet?style=flat-square&logo=github" alt="Awesome"/></a>
+  <a href="https://discord.gg/jc4xtF58Ve"><img src="https://img.shields.io/badge/Discord-5865F2?style=for-the-badge&logo=discord&logoColor=white" alt="Discord" /></a>
+  <a href="https://github.com/ishandutta2007/Awesome-Resource-Allocation-Capacity-Planning/stargazers"><img src="https://img.shields.io/github/stars/ishandutta2007/Awesome-Resource-Allocation-Capacity-Planning?style=flat-square&logo=github" alt="GitHub Stars"/></a>
+  <a href="https://github.com/ishandutta2007/Awesome-Resource-Allocation-Capacity-Planning/network/members"><img src="https://img.shields.io/github/forks/ishandutta2007/Awesome-Resource-Allocation-Capacity-Planning?style=flat-square&logo=github" alt="GitHub Forks"/></a>
+  <a href="https://github.com/ishandutta2007/Awesome-Resource-Allocation-Capacity-Planning/issues"><img src="https://img.shields.io/github/issues/ishandutta2007/Awesome-Resource-Allocation-Capacity-Planning?style=flat-square" alt="GitHub Issues"/></a>
+  <a href="https://creativecommons.org/publicdomain/zero/1.0/"><img src="https://img.shields.io/badge/License-CC0%201.0-lightgrey.svg?style=flat-square" alt="License: CC0-1.0"/></a>
+  <a href="https://github.com/ishandutta2007"><img alt="GitHub followers" src="https://img.shields.io/github/followers/ishandutta2007?label=Follow" /></a>
+</p>
 
-> A curated list of top Resource Allocation and Capacity Planning platforms — both SaaS/Hosted commercial solutions and open-source alternatives for visualizing team workloads, forecasting availability, and balancing utilization across projects.
-> 🌟 Star this repo if you find it useful! 🌟
-
----
-
-## 📋 Table of Contents
-
-- [SaaS / Hosted Platforms](#-saas--hosted-platforms)
-  - [Resource Guru](#resource-guru)
-  - [Runn](#runn)
-  - [Float](#float)
-  - [Forecast](#forecast)
-  - [Teamdeck](#teamdeck)
-  - [Saviom](#saviom)
-  - [Smartsheet Resource Management](#smartsheet-resource-management)
-- [Open-Source Software](#-open-source-software)
-  - [LibrePlan](#libreplan)
-  - [Capacinator](#capacinator)
-  - [CapacityTwin AI](#capacitytwin-ai)
-  - [OpenProject Resource Management](#openproject-resource-management)
-  - [TaskJuggler](#taskjuggler)
-  - [d3-scheduler](#d3-scheduler)
-  - [Jira Capacity Tracker](#jira-capacity-tracker)
-- [Comparison at a Glance](#-comparison-at-a-glance)
-- [Contributing](#-contributing)
+> 🎯 A curated directory of top **Resource Allocation**, **Capacity Planning**, and **Workload Management** platforms — featuring SaaS/hosted enterprise solutions and open-source alternatives to balance team bandwidth, forecast availability, eliminate bottlenecks, and optimize project schedules.
+>
+> 🌟 **Star this repository** if you find it helpful for your engineering, agency, or enterprise planning workflow!
 
 ---
 
-## 🟦 SaaS / Hosted Platforms
+## 📑 Table of Contents
 
-Commercial, cloud-hosted Resource Allocation and Capacity Planning platforms. These are not open-source but are included as reference points for feature comparison.
-
-### Resource Guru
-**Type:** Visual resource scheduling with availability tracking
-Resource Guru provides a clean, calendar-based interface for scheduling people and equipment, with real-time availability visibility, utilization reports, and leave management. It is known for its simplicity and fast setup, making it a common choice for agencies and professional services teams wanting visual resource planning without complex configuration.
-
-### Runn
-**Type:** Resource and capacity planning with project forecasting
-Runn combines resource scheduling with project forecasting, offering a timeline view of allocations, capacity vs. demand charts, and budget tracking. It is positioned for organizations needing both forward-looking capacity planning and actual time tracking, with integrations into project management and time-tracking tools.
-
-### Float
-**Type:** Visual resource scheduling with task-level allocation
-Float provides a visual timeline for scheduling team members across projects, with drag-and-drop allocation, utilization reports, and budget tracking. It is widely adopted by agencies and consultancies for its clean interface and focus on day-to-day scheduling rather than complex project management.
-
-### Forecast
-**Type:** AI-powered project and resource management
-Forecast (by ProSymmetry) combines project management with resource allocation, using AI to suggest optimal assignments based on skills, availability, and project requirements. It is positioned for organizations wanting intelligent automation alongside traditional resource planning.
-
-### Teamdeck
-**Type:** Resource scheduling with time tracking and leave management
-Teamdeck provides resource scheduling, time tracking, and leave management in a single platform, with a focus on utilization visibility and project profitability. It is suited for teams wanting an integrated view of who is working on what and how much capacity remains.
-
-### Saviom
-**Type:** Enterprise resource management with forecasting
-Saviom provides enterprise-grade resource management with capacity planning, utilization tracking, and project forecasting. It is positioned for large professional services organizations needing sophisticated resource optimization and reporting.
-
-### Smartsheet Resource Management
-**Type:** Work management with resource views
-Smartsheet's Resource Management add-on provides resource allocation views, workload tracking, and capacity planning within the broader Smartsheet work management platform. It is the natural choice for organizations already using Smartsheet for project tracking.
+- [🌐 Sector Overview & Market Dynamics](#-sector-overview--market-dynamics)
+- [🏢 SaaS / Hosted Commercial Platforms](#-saas--hosted-commercial-platforms)
+- [💻 Open-Source Software](#-open-source-software)
+  - [1. Plane](#1-plane-)
+  - [2. ERPNext](#2-erpnext-)
+  - [3. OpenProject](#3-openproject-)
+  - [4. Leantime](#4-leantime-)
+  - [5. Worklenz](#5-worklenz-)
+  - [6. Timefold Solver](#6-timefold-solver-)
+  - [7. TaskJuggler](#7-taskjuggler-)
+  - [8. LibrePlan](#8-libreplan-)
+  - [9. Capacity Planning Feature Monte Carlo](#9-capacity-planning-feature-monte-carlo-)
+  - [10. Resource Planner](#10-resource-planner-)
+  - [11. Jira Capacity Report](#11-jira-capacity-report-)
+  - [12. Capacinator](#12-capacinator-)
+  - [13. Qt Resource Planner](#13-qt-resource-planner-)
+- [📊 Comparison Matrix](#-comparison-matrix)
+- [📈 Star History](#-star-history)
+- [💖 Support & Sponsorship](#-support--sponsorship)
+- [🤝 Contributing](#-contributing)
+- [📄 License](#-license)
 
 ---
 
-## 🟩 Open-Source Software
+## 🌐 Sector Overview & Market Dynamics
 
-Self-hosted, community-driven Resource Allocation and Capacity Planning tools. The open-source ecosystem spans **full project management suites with resource modules**, **standalone capacity planners**, **simulation tools**, and **embeddable scheduling components**.
+The global Resource Management and Capacity Planning software market is valued at approximately **$10 billion** and is projected to surpass **$30 billion by 2032**, expanding at a robust Compound Annual Growth Rate (**CAGR of ~15%–20%**). 
 
-### LibrePlan
-**Stack:** Java / PostgreSQL | **License:** AGPL-3.0
-LibrePlan is a long-standing open-source web-based project management platform designed for project planning, **resource allocation, governance, and collaboration** [citation:2]. Since 2009, it has been used internationally and is available under AGPL, making it suitable for public administrations, municipalities, educational institutions, and NGOs seeking self-hosted project governance without proprietary SaaS dependency [citation:2]. Key resource features include assigning resources to tasks manually or automatically based on criteria, calendar-based holiday management, **resource utilization and workload visibility**, detailed resource allocation planning, and time-sheet entry for actuals [citation:8]. Version 1.6.0 added issue/risk logs, document repositories, and expanded email notifications [citation:2]. Deploys via Docker Compose [citation:8]. **Trade-off:** It is a full project management platform rather than a dedicated capacity planning tool, with a correspondingly broader learning curve.
-**Best for:** Public sector organizations and project-driven teams wanting a proven, self-hosted platform with resource allocation integrated into full project governance.
-
-### Capacinator
-**Stack:** Node.js / React / SQLite / Electron | **License:** MIT
-Capacinator is a **resource capacity planning and allocation management system** built specifically for project teams [citation:1]. It provides project management, team member management, and resource assignments with **conflict detection** for identifying overallocations. The dashboard shows analytics across projects and people, and Excel files can be imported for bulk setup. Data is stored locally (with platform-specific app data paths), and it is packaged as a standalone Electron executable [citation:1]. **Trade-off:** It is a standalone desktop application rather than a web-hosted platform, limiting real-time collaboration across distributed teams.
-**Best for:** Project managers wanting a focused, local-first capacity planning tool with conflict detection and no server infrastructure.
-
-### CapacityTwin AI
-**Stack:** Python / Streamlit / Docker | **License:** Open Source
-CapacityTwin AI is a lightweight **"what-if" simulator** that shows whether a team can deliver its workload on time, who is overloaded, and what changes when plans change [citation:15]. Given people (working hours, skills, days off) and tasks (effort, priority, deadline, dependencies), it builds a day-by-day schedule and reports available capacity, utilization, projected completion dates, missed deadlines, and bottlenecks. The key differentiator is **scenario comparison**: it shows plain before/after differences when someone is away, hours change, or priorities shift — for example, demonstrating that adding developer hours changes nothing while adding designer hours fixes every deadline [citation:15]. The engine is deterministic (same input, same output) with no AI dependency; explanations are template-based. Deploys via Docker Compose with Streamlit [citation:15]. **Limitation:** Deliberately simple model (fixed effort estimates, one task per person, greedy scheduler, no uncertainty) intended for planning conversations, not performance decisions [citation:15].
-**Best for:** Team leads and freelancers wanting a decision-support simulator to test capacity scenarios before committing to deadlines, particularly where bottlenecks are not obvious from total hours.
-
-### OpenProject Resource Management
-**Stack:** Ruby on Rails / PostgreSQL | **License:** GPL-3.0 (Community) / Enterprise
-OpenProject 17.7.0 introduced a dedicated **Resource Management module** (Enterprise feature) that models hierarchical departments, role-based user attributes, and individual working time models [citation:5][citation:11]. Managers get a central view for searching, filtering, and comparing employees by department, qualification, availability, and current utilization. A **timeline view** highlights overallocations and planning conflicts, allowing resources to be assigned directly from the timeline. The **Staffing view** shows suitable employees for a need, including their suitability and current workload [citation:11]. The module can inherit organizational structure from LDAP. **Important:** Resource management is gated to Enterprise plans; the Community edition includes project management but not this specific module [citation:5].
-**Best for:** Existing OpenProject users or organizations wanting enterprise-grade resource management integrated with a mature open-source project management platform, accepting the Enterprise licensing for the resource module.
-
-### TaskJuggler
-**Stack:** Ruby | **License:** GPL-2.0
-TaskJuggler is a free and open-source project management tool with a **text-based planning approach** rather than Gantt chart editing [citation:14]. It covers the complete spectrum from project scoping through resource assignment, cost and revenue planning, and risk management. It is positioned for "serious project managers" who want flexible, scriptable planning with precise control over resource constraints. **Trade-off:** The text-based interface is a significant departure from visual scheduling tools, with a steep learning curve for teams accustomed to drag-and-drop planning.
-**Best for:** Technical project managers wanting scriptable, precise resource and capacity planning without a GUI dependency.
-
-### d3-scheduler
-**Stack:** TypeScript / D3.js | **License:** Open Source (npm)
-d3-scheduler is an open-source **D3.js resource scheduler and timeline** with interactive calendar views, drag-and-drop events, resizing, resource allocation, and Gantt-style planning [citation:7]. It displays **scheduled hours, task count, and capacity percentage** in the sidebar, supports hierarchical department groupings, and includes Critical Path Method (CPM) calculation with zero-float highlighting [citation:7]. It is distributed as a React component (`<Scheduler />`) or vanilla JavaScript class, with full TypeScript declarations. Performance is stress-tested at 10,000 events across 100 rows [citation:7]. **Trade-off:** It is a **UI component/library** rather than a complete application — you build the data layer, persistence, and user management around it.
-**Best for:** Developers wanting to embed a capable resource scheduling timeline into their own application, accepting responsibility for the surrounding application infrastructure.
-
-### Jira Capacity Tracker
-**Stack:** Java / Spring Boot / Jira API / Google Sheets | **License:** Open Source (per repository)
-Jira Capacity Tracker is a Spring Boot application that integrates with Jira to provide **team capacity overview, resource availability forecasting (30-day view), overload detection, and utilization tracking** [citation:3][citation:9]. It fetches Jira issues in real time, tracks story points and velocity, and can generate Google Sheets with color-coded capacity data. Automated sync runs every 5 minutes, with email notifications for daily summaries [citation:9]. **Trade-off:** It is tightly coupled to Jira (requiring Jira API access and project keys), and the Google Sheets integration adds an external dependency. It is a companion tool rather than a standalone planning platform.
-**Best for:** Jira-centric teams wanting capacity visibility derived directly from their existing issue data, particularly those already using Google Sheets for planning.
+The sector is **moderately-to-highly fragmented** rather than a "winner-take-all" monopoly. Enterprise monoliths (such as Smartsheet, SAP, Workday, and Planview) cater to complex portfolio governance in Fortune 500 corporations, while nimble specialized platforms (like Runn, Float, and Resource Guru) and transparent open-source tools dominate agile agencies, consultancies, and engineering organizations prioritizing flexibility, API extensibility, and data sovereignty.
 
 ---
 
-## 📊 Comparison at a Glance
+## 🏢 SaaS / Hosted Commercial Platforms
 
-| Software | License | Stack | Capacity Forecasting | Conflict Detection | Self-Hosted | Best For |
-|----------|---------|-------|----------------------|---------------------|-------------|----------|
-| **Resource Guru** | Proprietary | Cloud | ✅ Utilization | (Visual) | ❌ | Simple visual scheduling |
-| **Runn** | Proprietary | Cloud | ✅ Demand vs capacity | ✅ | ❌ | Project + resource forecasting |
-| **Float** | Proprietary | Cloud | ✅ Utilization | (Visual) | ❌ | Agency day-to-day scheduling |
-| **LibrePlan** | AGPL-3.0 | Java/PostgreSQL | ✅ Workload | ✅ | ✅ | Full PM + resource governance |
-| **Capacinator** | MIT | Node.js/Electron | ✅ Analytics | ✅ | ✅ (Desktop) | Local capacity planning |
-| **CapacityTwin** | Open Source | Python/Streamlit | ✅ What-if scenarios | ✅ Bottleneck | ✅ | Scenario simulation |
-| **OpenProject RM** | GPL/Enterprise | Ruby/PostgreSQL | ✅ Timeline | ✅ Overallocation | ✅ | Enterprise PM + resources |
-| **TaskJuggler** | GPL-2.0 | Ruby | ✅ Scriptable | ✅ Constraints | ✅ | Precise scriptable planning |
-| **d3-scheduler** | Open Source | TypeScript/D3 | ✅ Capacity % | (CPM) | ✅ (Library) | Embeddable scheduler UI |
-| **Jira Capacity** | Open Source | Spring Boot | ✅ 30-day forecast | ✅ Overload | ✅ | Jira-derived capacity |
+Below is an overview of leading cloud-hosted commercial platforms for resource allocation and capacity forecasting, sorted descending by company scale (valuation / annual revenue).
+
+| 🏢 Platform | 💰 Company Valuation / Revenue | 🏷️ Starting Tier Pricing | 🎁 Free Tier / Trial Limit | 🎯 Primary Focus & Strengths |
+|:---|:---|:---|:---|:---|
+| **Smartsheet Resource Management** | **~$8.4 Billion valuation** ($500M–$1B+ ARR; acquired by Blackstone & Vista Equity) | **$9 per member/month** (Pro plan, billed annually) | **No permanent free tier** (30-day full-featured free trial with all grids, sheet automation & views) | Enterprise work execution and resource scheduling across large cross-functional portfolios. |
+| **Saviom** | **~$12M – $25M ARR** (Bootstrapped global enterprise vendor) | **Custom Enterprise Quote** (Starts ~$15–$30/user/mo based on deployment scale) | **No permanent free tier** (60-day guided enterprise pilot trial with custom data imports) | Enterprise resource management, skills inventory, matrix team forecasting & multi-project pipeline balancing. |
+| **Float** | **~$7.8M ARR** (Privately held, bootstrapped/scale-up) | **$6 per user/month** (Starter Resource Planning plan, billed annually) | **No permanent free tier** (14-day unrestricted free trial with all features and unlimited projects) | Visual team scheduling, calendar drag-and-drop allocations, and agency utilization forecasting. |
+| **Runn** | **~$6.9M ARR** (Venture-backed scale-up, ~$1.9M raised) | **$7 per person/month** (Lite tier, billed annually) | **No permanent free tier** (14-day free trial; free access for non-managing team members) | Capacity forecasting vs. project demand, real-time availability heatmaps, and budget modeling. |
+| **Resource Guru** | **~$4.4M ARR** (Privately held, backed by Index Ventures & Seedcamp) | **$4.16 per person/month** (Grasshopper plan, billed annually at $5/mo monthly) | **No permanent free tier** (30-day free trial with full feature access, no credit card required) | Lightweight visual calendar scheduling for teams and meeting rooms with clash management. |
+| **Forecast (by ProSymmetry)** | **~$1M – $4.3M ARR** (Privately held enterprise software developer) | **Custom Enterprise Quote** (Tiered contracts tailored by seat volume and planning scope) | **No permanent free tier** (30-day guided enterprise trial via assisted engineering onboarding) | Algorithmic "what-if" capacity simulation, scenario planning, and complex skills matching. |
+| **Teamdeck** | **~$700K ARR** (Privately held boutique software company) | **$3.99 per user/month** (Basic resource scheduling tier) | **No permanent free tier** (7-day full access free trial with unlimited resource profiles) | Lightweight resource scheduling, timesheets, and leave tracking built for creative teams. |
+
+---
+
+## 💻 Open-Source Software
+
+Self-hosted, transparent, and community-driven resource scheduling and capacity planning platforms. Repositories are listed in descending order by GitHub stars.
+
+### 1. Plane 🚀
+<a href="https://github.com/makeplane/plane/stargazers"><img src="https://img.shields.io/github/stars/makeplane/plane?style=social&color=white" alt="Plane Stars"/></a>
+
+- **Repository:** [makeplane/plane](https://github.com/makeplane/plane)
+- **Tech Stack:** TypeScript, Python, Next.js, Django, PostgreSQL, Docker
+- **License:** Apache-2.0
+- **Overview:** Plane is an open-source project management suite built as a modern alternative to Jira and Linear. It offers robust cycles, modules, issue planning, workload management, and analytics to track team velocity and capacity across parallel engineering sprints.
+
+### 2. ERPNext 💼
+<a href="https://github.com/frappe/erpnext/stargazers"><img src="https://img.shields.io/github/stars/frappe/erpnext?style=social&color=white" alt="ERPNext Stars"/></a>
+
+- **Repository:** [frappe/erpnext](https://github.com/frappe/erpnext)
+- **Tech Stack:** Python (Frappe Framework), JavaScript, MariaDB, Redis
+- **License:** GPL-3.0
+- **Overview:** Complete open-source enterprise resource planning (ERP) platform featuring dedicated project management and resource scheduling modules. Integrates timesheet entries, project costing, skill allocation, employee capacity limits, and human resource management in a single database.
+
+### 3. OpenProject 📅
+<a href="https://github.com/opf/openproject/stargazers"><img src="https://img.shields.io/github/stars/opf/openproject?style=social&color=white" alt="OpenProject Stars"/></a>
+
+- **Repository:** [opf/openproject](https://github.com/opf/openproject)
+- **Tech Stack:** Ruby on Rails, Angular, PostgreSQL, Docker
+- **License:** GPL-3.0
+- **Overview:** OpenProject provides comprehensive project portfolio management with dedicated resource management views. Visualizes team workload timelines, department allocation, individual working calendars, and highlights scheduling conflicts or overallocations across multiple projects.
+
+### 4. Leantime 🎯
+<a href="https://github.com/Leantime/leantime/stargazers"><img src="https://img.shields.io/github/stars/Leantime/leantime?style=social&color=white" alt="Leantime Stars"/></a>
+
+- **Repository:** [Leantime/leantime](https://github.com/Leantime/leantime)
+- **Tech Stack:** PHP, JavaScript, MySQL, Docker
+- **License:** AGPL-3.0
+- **Overview:** An open-source, human-centric project management system for small teams and cross-functional innovators. Features milestone roadmapping, Kanban boards, timesheets, and workload views to prevent team burnout and track capacity.
+
+### 5. Worklenz 👥
+<a href="https://github.com/Worklenz/worklenz/stargazers"><img src="https://img.shields.io/github/stars/Worklenz/worklenz?style=social&color=white" alt="Worklenz Stars"/></a>
+
+- **Repository:** [Worklenz/worklenz](https://github.com/Worklenz/worklenz)
+- **Tech Stack:** TypeScript, Angular, Node.js, PostgreSQL
+- **License:** Apache-2.0
+- **Overview:** Designed specifically for project team workload and resource management. Provides live resource allocation dashboards, team bandwidth heatmaps, task estimations, and time logs to balance workloads across project members.
+
+### 6. Timefold Solver 🧠
+<a href="https://github.com/TimefoldAI/timefold-solver/stargazers"><img src="https://img.shields.io/github/stars/TimefoldAI/timefold-solver?style=social&color=white" alt="Timefold Solver Stars"/></a>
+
+- **Repository:** [TimefoldAI/timefold-solver](https://github.com/TimefoldAI/timefold-solver)
+- **Tech Stack:** Java, Kotlin, Python
+- **License:** Apache-2.0
+- **Overview:** An open-source AI constraint satisfaction and optimization solver (fork of OptaPlanner). Solves complex capacity planning problems such as employee shift rostering, resource leveling, vehicle routing, and task scheduling under hard and soft operational constraints.
+
+### 7. TaskJuggler ⚙️
+<a href="https://github.com/taskjuggler/TaskJuggler/stargazers"><img src="https://img.shields.io/github/stars/taskjuggler/TaskJuggler?style=social&color=white" alt="TaskJuggler Stars"/></a>
+
+- **Repository:** [taskjuggler/TaskJuggler](https://github.com/taskjuggler/TaskJuggler)
+- **Tech Stack:** Ruby
+- **License:** GPL-2.0
+- **Overview:** A powerful "planning-as-code" project management tool. Operates on plain-text declarative configuration to calculate critical paths, level resource allocations across competing projects, detect over-allocations, and generate detailed capacity reports.
+
+### 8. LibrePlan 🌐
+<a href="https://github.com/LibrePlan/libreplan/stargazers"><img src="https://img.shields.io/github/stars/LibrePlan/libreplan?style=social&color=white" alt="LibrePlan Stars"/></a>
+
+- **Repository:** [LibrePlan/libreplan](https://github.com/LibrePlan/libreplan)
+- **Tech Stack:** Java, PostgreSQL, Docker
+- **License:** AGPL-3.0
+- **Overview:** A mature open-source web application designed specifically for project planning, resource allocation, and team governance. Supports manual and automated resource assignment based on worker skills, calendar holiday management, and global resource utilization graphs.
+
+### 9. Capacity Planning Feature Monte Carlo 🎲
+<a href="https://github.com/nbrown02/Capacity-Planning-Feature-Monte-Carlo/stargazers"><img src="https://img.shields.io/github/stars/nbrown02/Capacity-Planning-Feature-Monte-Carlo?style=social&color=white" alt="Capacity Planning Feature Monte Carlo Stars"/></a>
+
+- **Repository:** [nbrown02/Capacity-Planning-Feature-Monte-Carlo](https://github.com/nbrown02/Capacity-Planning-Feature-Monte-Carlo)
+- **Tech Stack:** Power BI, DAX, Jira API, Azure DevOps API
+- **License:** MIT
+- **Overview:** A quantitative capacity planning tool integrating with Jira and Azure DevOps to run Monte Carlo simulations. Accurately forecasts project delivery dates, sprint capacity risks, and required headcount based on historical throughput rather than subjective estimations.
+
+### 10. Resource Planner 📊
+<a href="https://github.com/quollnet/resource-planner/stargazers"><img src="https://img.shields.io/github/stars/quollnet/resource-planner?style=social&color=white" alt="Resource Planner Stars"/></a>
+
+- **Repository:** [quollnet/resource-planner](https://github.com/quollnet/resource-planner)
+- **Tech Stack:** JavaScript, HTML5, Bootstrap, vis-timeline
+- **License:** MIT
+- **Overview:** A lightweight, interactive web timeline for resource allocation and capacity monitoring. Built on top of `vis-timeline.js`, providing simple drag-and-drop assignment of employees to projects, utilization tracking, and overload notifications.
+
+### 11. Jira Capacity Report 📋
+<a href="https://github.com/bitovi/jira-capacity-report/stargazers"><img src="https://img.shields.io/github/stars/bitovi/jira-capacity-report?style=social&color=white" alt="Jira Capacity Report Stars"/></a>
+
+- **Repository:** [bitovi/jira-capacity-report](https://github.com/bitovi/jira-capacity-report)
+- **Tech Stack:** JavaScript, React, Jira Cloud REST API
+- **License:** MIT
+- **Overview:** An open-source web application designed for agile teams and Program Increment (PI) planning. Directly interfaces with Jira Cloud via OAuth 2.0 to visualize team capacity vs. committed epics and stories over multi-sprint horizons.
+
+### 12. Capacinator 💻
+<a href="https://github.com/steiner385/Capacinator/stargazers"><img src="https://img.shields.io/github/stars/steiner385/Capacinator?style=social&color=white" alt="Capacinator Stars"/></a>
+
+- **Repository:** [steiner385/Capacinator](https://github.com/steiner385/Capacinator)
+- **Tech Stack:** TypeScript, React, SQLite, Electron
+- **License:** MIT
+- **Overview:** A desktop-first resource capacity planning and allocation tool for agile project managers. Stores data locally with zero server requirements, supporting Excel imports, team capacity overviews, and visual collision detection for overloaded team members.
+
+### 13. Qt Resource Planner 🖥️
+<a href="https://github.com/BaseMax/qt-resource-planner/stargazers"><img src="https://img.shields.io/github/stars/BaseMax/qt-resource-planner?style=social&color=white" alt="Qt Resource Planner Stars"/></a>
+
+- **Repository:** [BaseMax/qt-resource-planner](https://github.com/BaseMax/qt-resource-planner)
+- **Tech Stack:** Python, PyQt5, Qt
+- **License:** GPL-3.0
+- **Overview:** A lightweight desktop GUI resource planner built with Python and PyQt5. Supports visual task scheduling, resource assignments, Gantt charts, and allocation conflict detection without external cloud dependencies.
+
+---
+
+## 📊 Comparison Matrix
+
+| 🛠️ Platform | 📜 License / Type | 🧰 Technology Stack | 🔮 Capacity Forecasting | ⚠️ Conflict / Overload Detection | 🏠 Self-Hosted | 🎯 Best Use Case |
+|:---|:---|:---|:---:|:---:|:---:|:---|
+| **Smartsheet RM** | Commercial SaaS | Cloud-Hosted | ✅ Enterprise Demand | ✅ Real-time Overload | ❌ | Multi-department enterprise resource governance |
+| **Saviom** | Commercial SaaS | Cloud-Hosted | ✅ Multi-scenario Forecast | ✅ Capacity Bottlenecks | ❌ | Enterprise matrix organizations & professional services |
+| **Float** | Commercial SaaS | Cloud-Hosted | ✅ Team Utilization | ✅ Visual Overbooking | ❌ | Fast-paced agencies & design/dev studios |
+| **Runn** | Commercial SaaS | Cloud-Hosted | ✅ Supply vs. Demand | ✅ Capacity Heatmaps | ❌ | Growth tech companies & consulting firms |
+| **Resource Guru** | Commercial SaaS | Cloud-Hosted | ✅ Availability Forecast | ✅ Clashes & Waiting Lists | ❌ | Simple team and physical asset scheduling |
+| **Plane** | Open-Source (Apache-2.0) | TypeScript / Python | ✅ Sprints & Cycles | ✅ Workload Tracking | ✅ | Modern engineering teams replacing Jira |
+| **ERPNext** | Open-Source (GPL-3.0) | Python / MariaDB | ✅ Enterprise Budgets | ✅ Resource Allocation | ✅ | Full organizational resource & ERP management |
+| **OpenProject** | Open-Source (GPL-3.0) | Ruby / PostgreSQL | ✅ Timeline Forecast | ✅ Visual Overallocation | ✅ | Regulated enterprises & public sector PM |
+| **Leantime** | Open-Source (AGPL-3.0) | PHP / MySQL | ✅ Milestone Bandwidth | ✅ Overload Indicators | ✅ | Small cross-functional product teams |
+| **Worklenz** | Open-Source (Apache-2.0) | TypeScript / Angular | ✅ Team Bandwidth | ✅ Bandwidth Heatmaps | ✅ | Agency resource balancing & project tracking |
+| **Timefold Solver** | Open-Source (Apache-2.0) | Java / Python | ✅ Algorithmic Optimization | ✅ Automated Constraint Solving | ✅ | Mathematical capacity & roster optimization |
+| **TaskJuggler** | Open-Source (GPL-2.0) | Ruby | ✅ Declarative Leveling | ✅ Mathematical Constraints | ✅ | Technical engineers favoring planning-as-code |
+| **LibrePlan** | Open-Source (AGPL-3.0) | Java / PostgreSQL | ✅ Global Utilization | ✅ Workload Thresholds | ✅ | Government & academic resource planning |
+| **Capacinator** | Open-Source (MIT) | Electron / SQLite | ✅ Project Analytics | ✅ Assignment Conflicts | ✅ (Local) | Solo project managers needing local offline planning |
+
+---
+
+## 📈 Star History
+
+[![Star History Chart](https://www.star-history.com/svg?repos=ishandutta2007/Awesome-Resource-Allocation-Capacity-Planning&type=date&legend=top-left)](https://www.star-history.com/#ishandutta2007/Awesome-Resource-Allocation-Capacity-Planning&type=date&legend=top-left)
+
+---
+
+## 💖 Support & Sponsorship
+
+Thank you for visiting and using this curated resource guide! Building and maintaining comprehensive open-source lists takes continuous effort, research, and community validation.
+
+If this repository has helped you evaluate tools, optimize your team's utilization, or save time:
+- ⭐ **Star this repository** to help others discover it.
+- 🍴 **Fork it** to customize your organization's internal planning stack.
+- 📢 **Share it** with fellow project managers, scrum masters, and engineering leads.
+- ☕ **Support future development:** You can sponsor the creator or buy a coffee via the [GitHub Sponsor Dashboard](https://github.com/sponsors/ishandutta2007).
 
 ---
 
 ## 🤝 Contributing
 
-Contributions are welcome! If you know of an open-source Resource Allocation or Capacity Planning tool that should be listed here, please open a pull request with:
+Contributions are warmly welcomed! If you have built or discovered an open-source Resource Allocation or Capacity Planning solution that belongs here:
 
-- Project name and URL
-- Brief description (1–2 sentences)
-- Stack and license
-- Why it stands out
+1. 🍴 Fork the repository.
+2. 🌿 Create a new branch: `git checkout -b add-tool-name`.
+3. 📝 Add your tool in the relevant section maintaining the descending star ranking format.
+4. 🚀 Submit a Pull Request with a clear description of the project and why it stands out.
 
-Please ensure the project is actively maintained (releases within the last 12 months) and genuinely open-source. Note that the open-source ecosystem **splits** between **full project management platforms with resource modules** (LibrePlan, OpenProject), **focused capacity planners** (Capacinator, Jira Capacity Tracker), **simulation and scenario tools** (CapacityTwin AI), and **embeddable UI components** (d3-scheduler). **LibrePlan** is the most established self-hosted option with over 15 years of history and AGPL licensing suitable for public sector sovereignty [citation:2]. **CapacityTwin AI** uniquely addresses the scenario-testing gap — showing that adding developer hours may change nothing while adding designer hours fixes every deadline [citation:15]. **OpenProject** offers the most polished enterprise resource management, though the resource module requires an Enterprise subscription [citation:5].
+Please ensure submitted tools are actively maintained with clear open-source licensing.
 
 ---
 
 ## 📄 License
 
-This list is released under CC0 1.0 Universal (Public Domain). The software projects listed retain their respective licenses.
-
----
-
-⭐ **If this list helped you discover a useful tool, please star the repo!** ⭐
+This curated collection is made available under the [Creative Commons Zero v1.0 Universal (CC0 1.0)](https://creativecommons.org/publicdomain/zero/1.0/) Public Domain Dedication. Individual software platforms mentioned retain their respective copyrights and licenses.
